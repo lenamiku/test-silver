@@ -1,0 +1,47 @@
+@import 'fonts.css';
+*{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   box-sizing: border-box;
+   text-decoration: none;
+   font-family: 'roboto';
+   font-weight: 400;
+}
+/* ===header=== */
+.header{
+   width: 1110px;
+   margin: 0 auto;
+   border: 0px solid #000;
+}
+/* ===navabr=== */
+.navbar{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.navbar__logo{
+   padding: 50px;
+}
+.navbar__list{
+   display: flex;
+}
+.navbar__list a{
+   color: #bab9b9;
+   padding: 10px 4px 15px;
+   display: flex;
+   margin: 0 19px;
+   font-size: 18px;
+   line-height: 15px;
+   border-bottom: 2px solid transparent;
+}
+.navbar__list a:hover{
+   color: #4581b7;
+   border-bottom-color: #4581b7;
+}
+/* ===header img=== */
+.header__img{
+   width: 100%;
+   object-fit: contain;
+}
